@@ -36,23 +36,14 @@ nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* styles the untitled list element, giving the list items no item marker */
-ul {
-    list-style-type: none;
-}
-
-/* styles the list items */
-li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline;
 }
 
 /* styles the a elements, which link to sections, with color */
 a {
     color: #ffffff;
     text-decoration: none;
+    margin: 40px 120px 40px 40px;
 }
 
 /* changes the font size of the p element */
@@ -65,65 +56,6 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 /* styles the sections elements within the main elements, adding margins and padding, adjusting height, adding background color, and changing the font as well as coloring it */
@@ -145,6 +77,37 @@ main section img {
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* this element selector sets the margins, padding, clears both sides of other html "squares", width&height, font and background color of the aside element. */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* this sets the margin and color of the aside section element */
+ aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* this sets the margin and aligns the h3 element text present on the html */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* this css element selector sets the display to block, a 10px margin on each side, and the max width to 150px */
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* sets the padding, font, and centers the footer.  also makes sure this element isn't adjacent to other elements on both sides */
