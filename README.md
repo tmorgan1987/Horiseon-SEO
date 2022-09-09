@@ -16,6 +16,7 @@ The Horiseon Team goes above and beyond by connecting your website with the prop
 
 For additional services, please visit:
 
-<a img="C:\Users\Troy\Desktop\Project-1\Horiseon-SEO\assets\images\memed.jpg">Horiseon</a>
+[Horiseon](https://i.imgflip.com/6srl5p.jpg)
 
+#
 <img src="./assets/images/readmepic.png">
