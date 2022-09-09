@@ -1,13 +1,16 @@
+/* styles all elements unless overrode by selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* styles the entire body of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* pads the header, applies font style, background color, and font color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* styles the h1 selector, the parent of span, nav, and the list that serves as our navigation bar */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* span selector, for styling a section of a webpage; the letters "seo" in this case */
 span {
     color: #d9dcd6;
 }
 
+/* styles our nav bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ nav {
     font-size: 20px;
 }
 
+/* styles the untitled list element, giving the list items no item marker */
 ul {
     list-style-type: none;
 }
 
+/* styles the list items */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styles the a elements, which link to sections, with color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes the font size of the p element */
 p {
     font-size: 16px;
 }
 
+/* adjusts the width of the main element, as well as margins around and makes them display from top to bottom vertically */
 main {
     width: 75%;
     display: inline-block;
@@ -115,6 +126,7 @@ main {
     max-width: 150px;
 }
 
+/* styles the sections elements within the main elements, adding margins and padding, adjusting height, adding background color, and changing the font as well as coloring it */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,26 +136,34 @@ main section {
     color: #ffffff;
 }
 
+/* sets the height of the main section img element */
 main section img {
     max-height: 200px;
 }
 
+/* sets the margins and font size of the main sections h2 element */
 main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+/* sets the padding, font, and centers the footer.  also makes sure this element isn't adjacent to other elements on both sides */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* sets the font size of the footer's h2 element */
+footer h2 {
     font-size: 20px;
 }
 
+
+/* Below are the necessary class attributes I found necessary for the background image and the main branch images. */
+
+/* this class sets the attributes of the background image, which was originally linked here in the css file, i moved it to html to add accessiblity */
 .background-img {
     height: 100%;
     width: 100%;
@@ -152,12 +172,15 @@ main section h2 {
     background-position: center;
 }
 
+/* this class orients where the section images appear on the screen, in this case to the left of the text with a 25px margin between the image and the text  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this class orients where the section images appear on the screen, in this case to the right of the text with a 25px margin between the image and the text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+/* This is the end of necessary classes for the background and main branch images. */
