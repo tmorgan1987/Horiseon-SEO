@@ -16,7 +16,7 @@ The Horiseon Team goes above and beyond by connecting your website with the prop
 
 For additional services, please visit:
 
-[Horiseon](https://i.imgflip.com/6srl5p.jpg)
+## [Horiseon](https://i.imgflip.com/6srl5p.jpg)
 
 #
 <img src="./assets/images/readmepic.png">
