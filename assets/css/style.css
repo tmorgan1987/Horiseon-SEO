@@ -124,10 +124,10 @@ footer h2 {
 }
 
 
-/* Below are the necessary class attributes I found necessary for the background image and the main branch images. */
+/* Below are the necessary id and class attributes I found necessary for the background image and the main branch images. */
 
-/* this class sets the attributes of the background image, which was originally linked here in the css file, i moved it to html to add accessiblity */
-.background-img {
+/* this id sets the attributes of the background image, which was originally linked here in the css file, i moved it to html to add accessiblity */
+#background-img {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
